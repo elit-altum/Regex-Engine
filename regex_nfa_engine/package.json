@@ -1,0 +1,29 @@
+{
+    "name": "dfa-regex-engine",
+    "version": "1.0.0",
+    "description": "Finite State Machines",
+    "main": "index.js",
+    "engines": {
+        "node": ">=10.11.0"
+    },
+    "scripts": {
+        "start": "node src/index",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git"
+    },
+    "keywords": [
+        "automata",
+        "finite state machines",
+        "regex"
+    ],
+    "author": "elit-altum",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^24.0.0"
+    },
+    "dependencies": {
+        "antlr4": "^4.7.2"
+    }
+}
